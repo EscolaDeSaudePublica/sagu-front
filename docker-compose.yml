@@ -1,0 +1,11 @@
+version: '3'
+services:
+  sagu-front:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - '.:/app'
+      - '/app/node_modules'
+    environment:
+      - NODE_ENV=development
