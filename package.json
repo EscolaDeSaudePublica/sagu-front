@@ -1,6 +1,6 @@
 {
   "name": "sagu-front",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "dependencies": {
     "@date-io/date-fns": "1.x",
     "@emotion/react": "^11.1.5",
